@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+.Oswald-regular {
+	font-family: "Oswald";
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+body{ 
+font-family: Oswald ; font-size: 16px ; margin: 0 ; color: crimson
+}
+
+header{
+width: 100%; height: 60px ; background-color: aliceblue; border-bottom: 1px solid #2F3A88
+}
+.container{
+width: 80% ; margin: 0 auto
+}
+.menu{
+padding-top: 18px	
+}
+
+.menu ul{
+margin: 0; padding: 0; list-style: none; display: flex
+
+}
+.menu ul li a{ 
+padding: 10px 25px; text-decoration: none; font-size: 17px; color: darkred; border-radius: 20px
+}
+
+.menu ul li a:hover{
+background-color: aqua; color: aliceblue	
+	
+}
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color:crimson
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+main{width: 100%; min-height: 500px}
+aside{width: 30%; padding: 15px ; min-height: 400px}
+.content {width: 70%; padding: 15px}
+
+.textdo {color: darkred}
+aside ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+aside ul a{
+	text-decoration: none; padding: 10px; display: block; color:#464646
+	
+}
+
+aside ul a:hover {
+	background-color:darkred; color: whitesmoke
+}
+aside ul li{
+	border-bottom: 1px solid gray
+}
+.img-100 { 
+width: 100%; height: auto
+}
+footer{ 
+	width: 100%; min-height: 300px
+}
+
+.bg-xanh{ 
+background-color:aliceblue; text-align: center
+}
+
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+	
+}
+footer a {
+	color:blue; text-decoration: none
+}
+footer a:hover{
+	padding: 30px; 
+	color: brown
+}
+foter ul li a{
+	padding: 30px; display: block; color: brown
+	
+}
